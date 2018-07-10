@@ -1,0 +1,7 @@
+1.安装zookeeper
+    下载zookeeper-xxxx.tar.gz 注意配置conf/zoo.cfg文件
+2.tomcat下启动dubbo-admin
+    注意修改tomcat启动端口，防止占用8080端口
+    注意将war包放到tomcat/webapps下 并更名为ROOT.war
+    如果启动报错， 有可能是jdk版本问题 最高支持jdk7
+3.启动项目
