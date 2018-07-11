@@ -13,5 +13,7 @@ public class StudentConsumerStarter {
 		StudentConsumer studentConsumer = (StudentConsumer)context.getBean("studentConsumer");
 		System.out.println(studentConsumer.getById(1L));
 		System.out.println(studentConsumer.getList());
+
+		System.in.read();
 	}
 }
